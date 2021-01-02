@@ -320,7 +320,10 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300; }
+  font-weight: 300; 
+  text-align:center;
+  margin:1.5rem;
+}
 
 .display-1 {
   font-size: 6rem;
@@ -7549,3 +7552,16 @@ a.tabledrag-handle .handle {
       display: none;
     }
   }
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+      border-left-color: rgb(238, 238, 238);
+      border-left-width: 1px;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}
+.bd-callout-warning {
+    border-left-color: #f0ad4e;
+}
