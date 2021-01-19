@@ -1,1 +1,124 @@
 // Define new variables.
+body {
+    background-color: #f8f9fa !important;
+}
+.region-footer {
+    nav{
+        @extend .d-flex;
+        @extend  .justify-content-center
+    }
+}
+.region-footer {
+    .navbar-nav {
+        flex-direction:row; 
+    }
+}
+h1.page-title {
+    background-color: #00334e;
+    padding: 2rem;
+    color: white;
+  }
+/*  FRONT PAGE */
+body.path-frontpage .navbar {
+    z-index:3;
+    background-color: rgba(18,18,18,.6);
+  }
+
+  body.path-frontpage .dropdown-menu {
+    background-color: rgba(18,18,18,.6);
+  }
+  
+  body.path-frontpage header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 40rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  body.path-frontpage header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  body.path-frontpage header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  body.path-frontpage header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    body.path-frontpage header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    body.path-frontpage header video {
+      display: none;
+    }
+  }
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+      border-left-color: rgb(238, 238, 238);
+      border-left-width: 1px;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}
+.bd-callout-warning {
+    border-left-color: #f0ad4e;
+} 
+footer.bg-secondary {
+    background-color: #00334e !important;
+}
+footer .card {
+    background-color: #003754 !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.region-footer .card hr {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    border-width: 0.25rem;
+    width: 3rem;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/wcc/web/sites/default/files/masthead_wcc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300; 
+    text-align:center;
+    margin:1.5rem;
+  }
