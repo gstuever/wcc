@@ -7561,14 +7561,14 @@ h1.page-title {
 /*  FRONT PAGE */
 body.path-frontpage .navbar {
   z-index: 3;
-  background-color: rgba(18, 18, 18, 0.6); }
+  background-color: rgba(255, 255, 255, 0.9); }
 
 body.path-frontpage .dropdown-menu {
-  background-color: rgba(18, 18, 18, 0.6); }
+  background-color: rgba(255, 255, 255, 0.9); }
 
 body.path-frontpage header {
   position: relative;
-  background-color: black;
+  background-color: white;
   height: 75vh;
   min-height: 40rem;
   width: 100%;
@@ -7591,16 +7591,6 @@ body.path-frontpage header video {
 body.path-frontpage header .container {
   position: relative;
   z-index: 2; }
-
-body.path-frontpage header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1; }
 
 @media (pointer: coarse) and (hover: none) {
   body.path-frontpage header {
