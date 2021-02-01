@@ -385,7 +385,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .card img, .carousel-item img {
+.img-fluid, .card img, .carousel-item img, .page-node-type-event img {
   max-width: 100%;
   height: auto; }
 
@@ -4700,7 +4700,7 @@ a.close.disabled {
 .align-top {
   vertical-align: top !important; }
 
-.align-middle {
+.align-middle, .block-views-blockevents-calendar-block-1 td {
   vertical-align: middle !important; }
 
 .align-bottom {
@@ -7548,7 +7548,9 @@ code {
   overflow-y: auto; }
 
 body {
-  background-color: #f8f9fa !important; }
+  background-color: #f8f9fa !important;
+  font-size: 1.2rem;
+  font-weight: 200; }
 
 .region-footer .navbar-nav {
   flex-direction: row; }

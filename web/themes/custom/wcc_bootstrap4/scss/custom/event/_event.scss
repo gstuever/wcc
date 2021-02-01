@@ -1,0 +1,11 @@
+  .page-node-type-event {
+    img{
+      @extend .img-fluid;
+    }
+  }
+
+  .block-views-blockevents-calendar-block-1 {
+    td {
+      @extend .align-middle;
+    }
+  }
