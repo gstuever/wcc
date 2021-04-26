@@ -43,10 +43,6 @@ class ComposerStaticInitd6b41a85ecbf0e2b6a59604bbaaab577
     );
 
     public static $prefixLengthsPsr4 = array (
-        'X' => 
-        array (
-            'XdgBaseDir\\' => 11,
-        ),
         'W' => 
         array (
             'Webmozart\\PathUtil\\' => 19,
@@ -168,10 +164,6 @@ class ComposerStaticInitd6b41a85ecbf0e2b6a59604bbaaab577
     );
 
     public static $prefixDirsPsr4 = array (
-        'XdgBaseDir\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
-        ),
         'Webmozart\\PathUtil\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/path-util/src',
