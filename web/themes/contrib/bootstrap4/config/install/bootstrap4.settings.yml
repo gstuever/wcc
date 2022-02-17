@@ -9,7 +9,4 @@ b4_footer_schema: 'dark'
 b4_footer_bg_schema: 'secondary'
 
 b4_top_container: 'container'
-
-subtheme_folder: 'themes/custom'
-subtheme_name: ''
-subtheme_machine_name: ''
+b4_top_container_config: ''
