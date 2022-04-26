@@ -17,7 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
-        "drupal/antibot": "^1.4",
+        "drupal/antibot": "^2.0",
         "drupal/bootstrap4": "^2.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
@@ -43,7 +43,12 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
+        }
     },
     "extra": {
         "drupal-scaffold": {
